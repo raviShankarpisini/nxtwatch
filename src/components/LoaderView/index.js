@@ -1,9 +1,10 @@
-import Loader from 'react-loader-spinner'
+import Loader from 'react-js-loader'
+
 import './index.css'
 
 const LoaderView = () => (
-  <div className="loader-container" data-testid="loader">
-    <Loader type="ThreeDots" color="#3b82f6" height="50" width="50" />
+  <div className="loader-container">
+    <Loader type="hourglass" bgColor="red" size={100} />
   </div>
 )
 

@@ -17,8 +17,8 @@ import {
 
 class Login extends Component {
   state = {
-    usernameInput: '',
-    passwordInput: '',
+    usernameInput: 'rahul',
+    passwordInput: 'rahul@2021',
     errMsg: '',
     showPassword: false,
   }
